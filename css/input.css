@@ -103,5 +103,8 @@ html::-webkit-scrollbar { width: 8px; height: 8px; }
 html::-webkit-scrollbar-thumb { background: transparent; border-radius: 9999px; }
 html::-webkit-scrollbar-track { background: transparent; }
 
+/* Cursor utilities used in JS-rendered content */
+.cursor-pointer { cursor: pointer; }
+
 /* Smooth scrolling for in-page anchor jumps */
 html { scroll-behavior: smooth; }
