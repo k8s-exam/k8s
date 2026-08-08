@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "observability",
   "title": "Observability",
-  "weight": "18%",
+  "weight": null,
   "preamble": [],
   "sections": [
     {

@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "multi-container-pods",
   "title": "Multi-container Pods",
-  "weight": "10%",
+  "weight": null,
   "preamble": [
     {
       "type": "ref",

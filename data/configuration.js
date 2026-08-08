@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "configuration",
   "title": "Configuration",
-  "weight": "18%",
+  "weight": null,
   "preamble": [
     {
       "type": "text",

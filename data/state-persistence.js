@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "state-persistence",
   "title": "State Persistence",
-  "weight": "8%",
+  "weight": null,
   "preamble": [
     {
       "type": "ref",

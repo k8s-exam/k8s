@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "core-concepts",
   "title": "Core Concepts",
-  "weight": "13%",
+  "weight": null,
   "preamble": [
     {
       "type": "ref",

@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "pod-design",
   "title": "Pod Design",
-  "weight": "20%",
+  "weight": null,
   "preamble": [
     {
       "type": "text",

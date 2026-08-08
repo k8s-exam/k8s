@@ -1,7 +1,7 @@
 window.CKAD_TOPIC = {
   "slug": "services-networking",
   "title": "Services & Networking",
-  "weight": "13%",
+  "weight": null,
   "preamble": [],
   "sections": [
     {

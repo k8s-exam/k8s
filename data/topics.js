@@ -2,7 +2,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "core-concepts",
     "title": "Core Concepts",
-    "weight": "13%",
+    "weight": null,
     "description": "Namespaces, pods, and kubectl basics.",
     "file": "a.core_concepts.md",
     "count": 30
@@ -10,7 +10,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "multi-container-pods",
     "title": "Multi-container Pods",
-    "weight": "10%",
+    "weight": null,
     "description": "Sidecars, init containers, and shared volumes.",
     "file": "b.multi_container_pods.md",
     "count": 9
@@ -18,7 +18,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "pod-design",
     "title": "Pod Design",
-    "weight": "20%",
+    "weight": null,
     "description": "Labels, deployments, jobs, and cron jobs.",
     "file": "c.pod_design.md",
     "count": 52
@@ -26,7 +26,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "configuration",
     "title": "Configuration",
-    "weight": "18%",
+    "weight": null,
     "description": "ConfigMaps, secrets, resources, and quotas.",
     "file": "d.configuration.md",
     "count": 30
@@ -34,7 +34,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "observability",
     "title": "Observability",
-    "weight": "18%",
+    "weight": null,
     "description": "Probes, logging, and debugging.",
     "file": "e.observability.md",
     "count": 8
@@ -42,7 +42,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "services-networking",
     "title": "Services & Networking",
-    "weight": "13%",
+    "weight": null,
     "description": "Services, endpoints, and NodePorts.",
     "file": "f.services.md",
     "count": 10
@@ -50,7 +50,7 @@ window.CKAD_TOPICS = [
   {
     "slug": "state-persistence",
     "title": "State Persistence",
-    "weight": "8%",
+    "weight": null,
     "description": "Volumes, PVs, and PVCs.",
     "file": "g.state.md",
     "count": 6
