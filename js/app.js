@@ -21,7 +21,6 @@
   var isIndex = body.hasAttribute("data-index");
 
   var SITE = "CKAD Exercises";
-  var SITE_URL = "https://github.com/dgkanatsios/CKAD-exercises";
   var SITE_TITLE = "Certified Kubernetes Application Developer (CKAD)";
   var SITE_DESC =
     "A fully static set of hands-on exercises organized by curriculum domain, " +
@@ -698,10 +697,7 @@
       el(
         "p",
         "mt-14 border-t border-slate-200 pt-6 text-center text-xs leading-relaxed text-slate-400 dark:border-slate-800 dark:text-slate-500",
-        "Content and solutions are from the MIT-licensed <a class=\"text-indigo-600 hover:underline dark:text-indigo-400\" href=\"" +
-          SITE_URL +
-          "\" target=\"_blank\" rel=\"noopener\">dgkanatsios/CKAD-exercises</a> repository. " +
-          "This site is an unofficial study aid for the CNCF CKAD exam. Built with Tailwind CSS."
+        "This site is an unofficial study aid for the CNCF CKAD exam. Built with Tailwind CSS."
       )
     );
     app.appendChild(MainShell(page));

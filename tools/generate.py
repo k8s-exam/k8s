@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate static reference data files for the CKAD Exercises website.
 
-Parses the markdown files from https://github.com/dgkanatsios/CKAD-exercises
+Parses the markdown files in _ckad/
 into JS data files (window.CKAD_*) so the site is fully static and works
 even when opened directly from disk (no fetch/CORS issues).
 """

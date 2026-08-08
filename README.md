@@ -2,7 +2,7 @@
 
 A fully static, self-contained study site for the [Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/) exam.
 
-The exercise content is derived from the open-source [`dgkanatsios/CKAD-exercises`](https://github.com/dgkanatsios/CKAD-exercises) repository, with every exercise and solution **verified against a live Kubernetes cluster** (kind, v1.36) and corrected where the original instructions were outdated or wrong. Each question links back to the relevant page of the [official Kubernetes documentation](https://kubernetes.io/docs/) so you can check the source of truth.
+The exercise content is MIT-licensed, with every exercise and solution **verified against a live Kubernetes cluster** (kind, v1.36) and corrected where the original instructions were outdated or wrong. Each question links back to the relevant page of the [official Kubernetes documentation](https://kubernetes.io/docs/) so you can check the source of truth.
 
 **229 exercises across 19 curriculum domains.**
 
@@ -118,14 +118,6 @@ Every exercise was executed against a real cluster (kind, Kubernetes v1.36, cont
 - Notes added for environment-specific caveats (e.g. `standard` StorageClass collisions, bitnami chart image tags that were removed from Docker Hub, plain-HTTP registries with podman).
 
 > Everything still refers back to the official Kubernetes documentation; these are corrections to the *commands*, not to Kubernetes behavior.
-
----
-
-## Acknowledgements
-
-- [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises) by [Dimitris-Ilias Gkanatsios](https://github.com/dgkanatsios) — the original exercise content and per-domain format.
-- [Kubernetes documentation](https://kubernetes.io/docs/) — the official reference every answer links to.
-- [Tailwind CSS](https://tailwindcss.com/) — styling.
 
 ---
 
