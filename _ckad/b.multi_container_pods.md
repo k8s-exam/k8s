@@ -1,4 +1,4 @@
-# Multi-container Pods (10%)
+# Multi-container Pods
 
 kubernetes.io > Documentation > Concepts > Workloads > Pods > [Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
 

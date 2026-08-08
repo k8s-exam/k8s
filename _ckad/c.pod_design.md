@@ -1,4 +1,4 @@
-# Pod Design (20%)
+# Pod Design
 
 [Labels And Annotations](#labels-and-annotations)
 

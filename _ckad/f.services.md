@@ -1,4 +1,4 @@
-# Services & Networking (13%)
+# Services & Networking
 
 ### Create a pod with image nginx called web and expose its port 80
 
