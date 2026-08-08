@@ -376,6 +376,17 @@
 
   /* ---------- Header ---------- */
   function Header(onMenu) {
+    var totalCount = 0;
+    TOPICS.forEach(function(t){ totalCount += t.count || 0; });
+    var currentCount = 0;
+    if (TOPIC && TOPIC.sections) {
+      TOPIC.sections.forEach(function(sec){
+        (sec.blocks || []).forEach(function(b){
+          if (b.type === "exercise") currentCount++;
+        });
+      });
+    }
+
     var inner = el("div", "flex h-16 w-full items-center gap-3 px-4 sm:px-6 lg:pl-[calc(16rem+1.5rem)]");
     var menu = el("button", "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 lg:hidden dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white", ICONS.menu);
     menu.type = "button";
@@ -383,6 +394,14 @@
     if (onMenu) menu.addEventListener("click", onMenu);
     inner.appendChild(menu);
     inner.appendChild(Brand());
+    if (totalCount) {
+      inner.appendChild(
+        el("span", "hidden sm:inline-flex shrink-0 items-center gap-1.5 rounded-full bg-indigo-50 px-2.5 py-1 text-[11px] font-semibold text-indigo-700 border border-indigo-100 dark:bg-indigo-500/10 dark:text-indigo-300 dark:border-indigo-500/20",
+          "Total: " + totalCount +
+          (currentCount ? "  ·  " + TOPIC.title + ": " + currentCount : "")
+        )
+      );
+    }
     inner.appendChild(el("div", "flex-1"));
     inner.appendChild(SearchBox());
     if (window.CKADTheme) inner.appendChild(window.CKADTheme.createButton());
