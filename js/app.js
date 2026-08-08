@@ -475,7 +475,7 @@
   function ExerciseCard(block) {
     var wrap = el(
       "div",
-      "exercise scroll-mt-24 overflow-hidden rounded-2xl border border-slate-200 border-l-4 border-l-indigo-500 bg-white shadow-sm transition-all hover:shadow-md dark:border-slate-800 dark:border-l-indigo-400 dark:bg-slate-900"
+      "exercise scroll-mt-24 overflow-hidden rounded-2xl border border-slate-200 border-l-4 border-l-indigo-500 bg-white shadow-sm transition-all hover:shadow-md cursor-pointer dark:border-slate-800 dark:border-l-indigo-400 dark:bg-slate-900"
     );
     wrap.id = block.id;
 
