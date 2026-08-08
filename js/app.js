@@ -481,7 +481,7 @@
 
     var q = el(
       "button",
-      "exercise-question flex w-full items-center gap-3 bg-gradient-to-r from-indigo-50/80 to-transparent px-5 py-5 text-left transition-colors hover:from-indigo-100/80 dark:from-indigo-500/10 dark:to-transparent dark:hover:from-indigo-500/20"
+      "exercise-question flex w-full items-center gap-3 bg-gradient-to-r from-indigo-50/80 to-transparent px-5 py-5 text-left transition-colors hover:from-indigo-100/80 dark:from-indigo-500/10 dark:to-transparent dark:hover:from-indigo-500/20 cursor-pointer"
     );
     q.type = "button";
     q.setAttribute("aria-expanded", "false");
